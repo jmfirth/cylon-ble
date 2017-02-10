@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var noble = require('noble');
+var noble = require('react-native-ble');
 
 noble.on('stateChange', function(state) {
   if (state === 'poweredOn') {

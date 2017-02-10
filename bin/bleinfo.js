@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var async = require('async');
-var noble = require('noble');
+var noble = require('react-native-ble');
 
 var peripheralUuid = process.argv[2];
 
